@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 5px;
+}
+h3{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+header, section, footer, aside, nav, article, figcaption, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+}
+
+#todo{
+    background-color: white;
+    border-width: 20px;
+    box-shadow: 5px 2px 10px ;
+}
+
+#cabecera{
+    background-color: lightgray;
+    border: 5px solid #22222299;
+    padding: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu{
+    text-decoration: none;
+    margin: 20px;
+    list-style: none;
+}
+#menu li{
+    list-style: none;
+    padding: 0px;
+    background-color: gray;
+    display: inline-block;
+}
+#menu li a{
+    color: white;
+}
+#menu li a:hover{
+    border: solid gray;
+}
+
+#menu2{
+    text-decoration: none;
+    margin: 20px;
+}
+#menu2 li{
+    list-style: none;
+    padding: 0px;
+    background-color: gray;
+    display: list-item;
+  
+}
+#menu2 li a{
+    color: white;
+}
+#menu2 li a:hover{
+    border: solid gray;
+}
+
+
+#sucesos{
+    float: left;
+    width: 30%;
+    text-align: left;
+}
+
+#deportes
+{
+    margin: 0px;
+    float: left;
+    width: 280px;
+    height: 400px;
+    text-align: left;
+}
+
+#seccion2{
+    float: right;
+    width: 30%;
+    margin: 10px 1%;
+    background-color: #bbb7b7;
+    border-radius: 15px;
+}
+
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color: #fff;
+    background-color: gray;
+}
